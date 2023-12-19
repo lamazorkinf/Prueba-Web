@@ -1,0 +1,80 @@
+/* Estilos Generales */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado */
+header {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Sección Sobre Mí */
+section.sobre-mi {
+    background-color: #222;
+    color: #ddd;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Sección Habilidades */
+section.habilidades {
+    background-color: #333;
+    color: #eee;
+    padding: 40px 20px;
+}
+
+/* Lista de Habilidades */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #444;
+    margin-bottom: 10px;
+    padding: 10px;
+    color: white;
+}
+
+/* Sección Contacto */
+section.contacto {
+    background-color: #555;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Enlaces */
+a {
+    color: #08f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Media queries para responsividad */
+@media (min-width: 600px) {
+    .sobre-mi, .habilidades, .contacto {
+        text-align: left;
+        padding: 40px;
+    }
+}
